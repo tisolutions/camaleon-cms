@@ -58,7 +58,7 @@ class CamaleonCms::Site < CamaleonCms::TermTaxonomy
 
   # return current admin language configured for this site
   def get_admin_language
-    options[:_admin_theme] || "en"
+    options[:_admin_theme] || "es"
   end
 
   # set current admin language for this site
